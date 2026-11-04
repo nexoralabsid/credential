@@ -1,0 +1,28 @@
+# Compiler files
+cache/
+out/
+
+# Commonly ignored directories
+.logs/
+.ignore/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+
+# Dotenv file
+.env
+.env.*
+!.env.example
+
+# Frontend build artifacts & dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Isolated static hosting checkout and generated release archives
+/release-site/
+/credential-site-release*.tar.gz
+/credential-site-release*.zip
+
